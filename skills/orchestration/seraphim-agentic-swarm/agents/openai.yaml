@@ -1,0 +1,4 @@
+interface:
+  display_name: "Seraphim Agentic Swarm"
+  short_description: "Parallel multi-agent development waves"
+  default_prompt: "Use $seraphim-agentic-swarm to run parallel specialized lanes, synthesize completions, and launch the next wave without waiting for the user."
