@@ -19,8 +19,8 @@ the package body.
 
 ## Published packages
 
-Twenty-two reviewed public packages are currently available. Four are normalized
-archive exports, seven are reviewed live-agent exports, and eleven are explicitly
+Twenty-three reviewed public packages are currently available. Four are normalized
+archive exports, eight are reviewed live-agent exports, and eleven are explicitly
 labeled reconstructed public editions.
 
 | Skill | Role | Package |
@@ -34,6 +34,7 @@ labeled reconstructed public editions.
 | Seraphim Mission Intake | Silent intake router | `orchestration/seraphim-mission-intake/` |
 | Seraphim Operator Routing | Role orchestrator | `orchestration/seraphim-operator-routing/` |
 | Seraphim Action Controller | External-effect controller | `orchestration/seraphim-action-controller/` |
+| Seraphim Agentic Swarm | Parallel multi-agent wave coordinator | `orchestration/seraphim-agentic-swarm/` |
 | Skill Ecosystem Governor | Routing auditor | `orchestration/skill-ecosystem-governor/` |
 | Lawful HUMINT Collection Planner | Lawful collection planner | `investigation/lawful-humint-planner/` |
 | Seraphim Decision Laboratory | Decision-support owner | `decision-support/seraphim-decision-laboratory/` |

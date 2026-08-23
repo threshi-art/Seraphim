@@ -44,6 +44,12 @@ class ExecutionPropulsionTests(unittest.TestCase):
         assert_valid_skill(self, package, "execution-propulsion")
 
 
+class SeraphimAgenticSwarmTests(unittest.TestCase):
+    def test_package_is_portable_and_complete(self):
+        package = ROOT / "skills" / "orchestration" / "seraphim-agentic-swarm"
+        assert_valid_skill(self, package, "seraphim-agentic-swarm")
+
+
 class OrchestrationCohortTests(unittest.TestCase):
     EXPECTED_PACKAGES = {
         "context-sentinel": "skills/orchestration/context-sentinel",
