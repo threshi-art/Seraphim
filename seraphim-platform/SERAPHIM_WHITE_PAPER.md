@@ -166,7 +166,7 @@ When explicitly enabled outside production, the local-development fallback may c
 | 15 | Settings | `/settings` | `settings` | Live | Default mode, weather location, personality tuning |
 | 16 | Instagram Intel | `/instagram` | `instagram` | Live | MCP-powered cache-backed social media dashboard |
 | 17 | SystemSentinel | `/sentinel` | `sentinel` | Live | 29 PowerShell health checks across 5 categories |
-| 18 | Network Intel | `/netintel` | `netIntel` | Live | CMIT 265 labs, subnetting, troubleshooting, quiz |
+| 18 | Network Intel | `/netintel` | `netIntel` | Live | Networking foundations labs, subnetting, troubleshooting, quiz |
 | 19 | Audit Log | `/audit` | `audit` | Live | Full activity trail |
 | 20 | Command Deck | `/deck` | N/A (reads others) | Live | Operational KPI mission control dashboard |
 | 21 | Landing Page | `/` | N/A | Live | Cinematic Inception-style entry page |
@@ -229,14 +229,14 @@ A **local-only** module that requires a companion Python backend running on `loc
 
 **Key files:** `client/src/pages/dashboard/ArgusVigilPage.tsx`
 
-#### 5.2.5 Network Intelligence (CMIT 265)
+#### 5.2.5 Network Intelligence (Networking foundations)
 
 An educational and operational network engineering toolkit with 8 sub-tabs:
 
 | Sub-tab | Type | Description |
 |---------|------|-------------|
 | Troubleshoot | LLM-powered | OSI model bottom-up analysis |
-| Labs | Knowledge base | 28 CMIT 265 lab topics with objectives and commands |
+| Labs | Knowledge base | 28 Networking foundations lab topics with objectives and commands |
 | Subnet Calculator | Pure computation | IPv4 subnetting with binary breakdown |
 | Commands | Knowledge base | 28 commands across Windows, Linux, Cisco |
 | Ports | Knowledge base | 25 common ports with protocols and security notes |
@@ -493,7 +493,7 @@ When a user logs in whose `openId` matches `OWNER_OPEN_ID` environment variable,
 |------|---------|-------|
 | `shared/network-ports.ts` | Common ports with protocols, services, security notes | 25 entries |
 | `shared/network-commands.ts` | CLI commands for Windows, Linux, Cisco | 28 entries |
-| `shared/network-labs.ts` | CMIT 265 lab topics with objectives, topology, commands | 28 entries |
+| `shared/network-labs.ts` | Networking foundations lab topics with objectives, topology, commands | 28 entries |
 
 ### 9.3 Terra Types (`shared/terra.ts`)
 
@@ -596,7 +596,7 @@ seraphim/
 │           ├── LandingPage.tsx       # Cinematic entry
 │           ├── MarineTrafficPage.tsx # Vessel tracking iframe
 │           ├── MemoryPage.tsx        # Knowledge system
-│           ├── NetworkIntelPage.tsx  # CMIT 265 toolkit
+│           ├── NetworkIntelPage.tsx  # Networking foundations toolkit
 │           ├── NetworkPage.tsx       # Network defense (legacy)
 │           ├── NewsPage.tsx          # News aggregation
 │           ├── NotFound.tsx          # 404 page
@@ -637,7 +637,7 @@ seraphim/
 │   ├── terra.ts                    # Argus Terra type definitions
 │   ├── network-ports.ts            # 25 common ports database
 │   ├── network-commands.ts         # 28 CLI commands reference
-│   ├── network-labs.ts             # 28 CMIT 265 lab definitions
+│   ├── network-labs.ts             # 28 Networking foundations lab definitions
 │   └── _core/
 │       └── errors.ts               # Shared error constants
 ├── drizzle/
@@ -963,7 +963,7 @@ handoff. This repository does not claim a currently maintained public service.
 | v3.0 | — | Landing page, Weather, Flights, News, Discover |
 | v4.0 | — | Anonymous operator mode, mode selector (12 modes), file upload, EiRAM deep analysis |
 | v5.0 | — | Settings, Instagram Intel, Chat Search, SystemSentinel, Network Intelligence |
-| v6.0 | — | Command Deck, TopNav, CMIT 265 full toolkit |
+| v6.0 | — | Command Deck, TopNav, Networking foundations full toolkit |
 | v7.0 | `287f50a1` | Argus Terra (14 components), Argus Vigil, resizable sidebar, 404 page, chat ownership security |
 | v8.0 | `f6d4a9ec` | Marine Traffic, TerraGlobe Google Maps upgrade, News nav item |
 

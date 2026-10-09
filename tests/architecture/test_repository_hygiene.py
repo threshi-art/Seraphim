@@ -33,7 +33,7 @@ class RepositoryHygieneTests(unittest.TestCase):
         for project in portfolio.iterdir():
             if not project.is_dir():
                 continue
-            for name in ("AGENTS.md", "ACADEMIC_AND_DESIGN_STANDARDS.md"):
+            for name in ("AGENTS.md", "DESIGN_DOCUMENTATION_STANDARDS.md"):
                 if (project / name).exists():
                     repeated.append(str((project / name).relative_to(ROOT)))
         self.assertEqual([], repeated)

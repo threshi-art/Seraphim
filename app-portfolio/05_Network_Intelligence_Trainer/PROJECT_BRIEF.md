@@ -6,7 +6,7 @@ Build a networking study and operations trainer for subnetting, OSI troubleshoot
 
 ## Product Thesis
 
-The Seraphim network intelligence module already looks like a strong school/certification companion and can be made useful without sensitive integrations.
+The Seraphim network intelligence module already looks like a strong networking practice companion and can be made useful without sensitive integrations.
 
 ## Proposed Architecture
 
@@ -33,5 +33,5 @@ The Seraphim network intelligence module already looks like a strong school/cert
 
 ## Open Questions
 
-- Should this target CMIT coursework, CompTIA Network+, Cisco basics, or all of the above?
+- Should this target networking fundamentals, CompTIA Network+, Cisco basics, or all of the above?
 - Should labs be purely textual or include diagrams?

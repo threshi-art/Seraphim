@@ -69,8 +69,8 @@
 - [x] Full project sync to local drive complete (165 files synced for Cursor handoff)
 - [x] Test SystemSentinel with live PowerShell check execution on user's desktop (deferred to user — requires local machine testing)
 - [x] Add vitest coverage for SystemSentinel and netIntel router procedures (35 tests passing)
-- [x] Build CMIT 265 Network Intelligence Core into Network module
-- [x] Create lab registry JSON with 28 CMIT 265 lab topics
+- [x] Build Networking foundations Network Intelligence Core into Network module
+- [x] Create lab registry JSON with 28 Networking foundations lab topics
 - [x] Create port database JSON with 25 common ports
 - [x] Create command library JSON (28 commands: Windows, Linux, Cisco)
 - [x] Build subnetting/IP calculator (IPv4) as tRPC procedure

@@ -10,7 +10,7 @@
 - Persistent memory (`memory_entries`)
 - Audit logs (`audit_logs` + Audit page)
 - EiRAM analysis (lexicon + LLM)
-- Network Defense and Network Intel (CMIT 265)
+- Network Defense and Network Intel (Networking foundations)
 - Argus Terra geospatial module
 - Command Deck, Landing, Settings
 - News (RSS NewsFlow), Weather, Flights, Marine Traffic iframe
