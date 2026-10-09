@@ -102,3 +102,11 @@ pnpm dev
 ```
 
 See `HANDOFF_SETUP.md` for Argus Vigil, preview server, and related services.
+
+## Repository quick reference
+
+**Status:** active.
+
+**What it is:** An operator governed AI platform with web, desktop, and local bridge prototypes.
+
+**How to run:** From seraphim-platform/, run pnpm install and pnpm dev; follow HANDOFF_SETUP.md for other services.
