@@ -1,0 +1,26 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/seraphim-platform"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "npm"
+    directory: "/seraphim-platform/seraphim_desktop_companion"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/app-portfolio/03_EIRAM_Analysis_Studio/engine-api"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/seraphim-platform/argus-vigil/backend"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/seraphim-platform/seraphim_local_bridge"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/seraphim-platform/seraphim_runtime"
+    schedule:
+      interval: "weekly"
