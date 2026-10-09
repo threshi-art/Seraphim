@@ -1,9 +1,7 @@
-# Seriphim
+# Seraphim
 
 Public curated source for the Seraphim AI platform and related application
-concepts. The repository name is `Seriphim`; product documentation inside the
-source primarily uses `Seraphim`. That naming inconsistency is preserved until
-it is resolved intentionally.
+concepts. The repository and product documentation use the name `Seraphim`.
 
 This repository is a portfolio snapshot, not a reconstruction of the original
 development timeline. New dependency folders, build outputs, archives,
@@ -49,9 +47,7 @@ but they are not mirrored here and must not be mechanically synchronized into
 this repository. Public changes enter through reviewed branches with explicit
 provenance, privacy, asset, and verification checks.
 
-The GitHub repository retains the historical spelling `Seriphim`; product
-material primarily uses `Seraphim`. Renaming remains a separate governed change
-because it affects remotes, links, automation, and active review branches.
+The GitHub repository and product material use the name `Seraphim`.
 
 ## Cognitive architecture
 
@@ -96,7 +92,7 @@ See [PORTFOLIO_STATUS.md](PORTFOLIO_STATUS.md) for validation gates.
 
 Linux CI currently verifies the locked dependency install and declared platform
 checks. Clean Windows development and desktop-package reproduction remain
-tracked in [issue #2](https://github.com/threshi-art/Seriphim/issues/2), so do
+tracked in [issue #2](https://github.com/threshi-art/Seraphim/issues/2), so do
 not treat these commands as a certified release procedure.
 
 ```powershell
@@ -106,3 +102,11 @@ pnpm dev
 ```
 
 See `HANDOFF_SETUP.md` for Argus Vigil, preview server, and related services.
+
+## Repository quick reference
+
+**Status:** active.
+
+**What it is:** An operator governed AI platform with web, desktop, and local bridge prototypes.
+
+**How to run:** From seraphim-platform/, run pnpm install and pnpm dev; follow HANDOFF_SETUP.md for other services.

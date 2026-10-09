@@ -1097,7 +1097,7 @@ Instructions:
     }),
   }),
 
-  // ── Network Intelligence (CMIT 265) ──
+  // ── Network Intelligence (Networking foundations) ──
   netIntel: router({
     // Port database lookup
     ports: publicProcedure.query(() => {
@@ -1161,7 +1161,7 @@ Instructions:
       try {
         const response = await invokeLLM({
           messages: [
-            { role: "system", content: `You are Seraphim's Network Troubleshooting Engine, an expert network engineer and CMIT 265 instructor.
+            { role: "system", content: `You are Seraphim's Network Troubleshooting Engine, an expert network engineer and Networking foundations instructor.
 Analyze the problem using the OSI model bottom-up approach. For each relevant layer, provide:
 - Layer name and number
 - Possible causes at that layer
@@ -1251,7 +1251,7 @@ Use tables for IP schemes and VLAN assignments. Be specific with IP addresses an
       try {
         const response = await invokeLLM({
           messages: [
-            { role: "system", content: `You are a CMIT 265 exam prep assistant. Generate ${input.count} multiple-choice questions on the topic at ${input.difficulty} difficulty. Format as JSON array with objects: { "question": string, "options": ["A. ...", "B. ...", "C. ...", "D. ..."], "correct": "A"|"B"|"C"|"D", "explanation": string }. Return ONLY valid JSON, no markdown.` },
+            { role: "system", content: `You are a Networking foundations exam prep assistant. Generate ${input.count} multiple-choice questions on the topic at ${input.difficulty} difficulty. Format as JSON array with objects: { "question": string, "options": ["A. ...", "B. ...", "C. ...", "D. ..."], "correct": "A"|"B"|"C"|"D", "explanation": string }. Return ONLY valid JSON, no markdown.` },
             { role: "user", content: `Topic: ${input.topic}` },
           ],
         });

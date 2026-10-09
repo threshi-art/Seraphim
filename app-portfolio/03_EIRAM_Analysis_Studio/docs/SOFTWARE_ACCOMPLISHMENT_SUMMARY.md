@@ -37,7 +37,7 @@ application.
 - `docs/SCI_VDD.md`
 - `docs/MVP_PLAN.md`
 - `docs/ROADMAP.md`
-- `ACADEMIC_AND_DESIGN_STANDARDS.md`
+- `DESIGN_DOCUMENTATION_STANDARDS.md`
 
 ## 2. Product Summary
 
@@ -73,7 +73,7 @@ Completed:
 Completed:
 
 - Reviewed local academic writing, APA 7, SDD, architecture, and UML course resources.
-- Created `ACADEMIC_AND_DESIGN_STANDARDS.md`.
+- Created `DESIGN_DOCUMENTATION_STANDARDS.md`.
 - Created `AGENTS.md` to preserve future Codex documentation instructions.
 - Copied standards into all 10 app portfolio project folders.
 

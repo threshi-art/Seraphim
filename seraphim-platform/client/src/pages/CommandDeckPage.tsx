@@ -475,7 +475,7 @@ export default function CommandDeckPage() {
                   <tbody>
                     <AttentionRow severity="high" item="System Sentinel scan not yet run" module="Sentinel" action="Run full integrity check on local machine" />
                     <AttentionRow severity="medium" item="Instagram data cache empty" module="Instagram" action="Sync account data via MCP tools" />
-                    <AttentionRow severity="medium" item="Network Intelligence module needs CMIT 265 core" module="Network" action="Build lab registry and command library" />
+                    <AttentionRow severity="medium" item="Network Intelligence module needs Networking foundations core" module="Network" action="Build lab registry and command library" />
                     <AttentionRow severity="low" item="Memory bank has no entries yet" module="Memory" action="Start conversations to build knowledge base" />
                     <AttentionRow severity="low" item="Plugin system awaiting first self-improvement" module="Plugins" action="Trigger autonomous capability expansion" />
                   </tbody>

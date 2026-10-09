@@ -224,7 +224,7 @@ function LabsTab() {
     <div className="space-y-4 max-w-4xl">
       <div>
         <h2 className="text-lg font-semibold text-teal-400 mb-1">Lab Registry</h2>
-        <p className="text-xs text-gray-500">28 CMIT 265 labs with objectives, topology, commands, and quiz questions.</p>
+        <p className="text-xs text-gray-500">28 Networking foundations labs with objectives, topology, commands, and quiz questions.</p>
       </div>
 
       <div className="flex gap-2 flex-wrap">
@@ -552,7 +552,7 @@ function QuizTab() {
     <div className="space-y-4 max-w-4xl">
       <div>
         <h2 className="text-lg font-semibold text-teal-400 mb-1">Exam Prep Quiz Generator</h2>
-        <p className="text-xs text-gray-500">Generate multiple-choice questions on any CMIT 265 topic.</p>
+        <p className="text-xs text-gray-500">Generate multiple-choice questions on any Networking foundations topic.</p>
       </div>
 
       {questions.length === 0 ? (

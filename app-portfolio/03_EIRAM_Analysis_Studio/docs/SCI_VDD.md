@@ -49,7 +49,7 @@ later Phase-1 engine import is tracked separately under `../engine-api/`.
 - `docs/ARCHITECTURE.md`
 - `docs/MVP_PLAN.md`
 - `docs/ROADMAP.md`
-- `ACADEMIC_AND_DESIGN_STANDARDS.md`
+- `DESIGN_DOCUMENTATION_STANDARDS.md`
 - `AGENTS.md`
 
 ### 1.4 Definitions and Acronyms
@@ -88,7 +88,7 @@ later Phase-1 engine import is tracked separately under `../engine-api/`.
 |---|---|---|---|---|
 | CI-001 | Project Brief | `PROJECT_BRIEF.md` | Created | `EIRAM-STUDIO-0.1` |
 | CI-002 | Project README | `README.md` | Created | `EIRAM-STUDIO-0.1` |
-| CI-003 | Academic and Design Standards | `../ACADEMIC_AND_DESIGN_STANDARDS.md` | Shared current location; project copy removed | `EIRAM-STUDIO-0.1` |
+| CI-003 | Academic and Design Standards | `../DESIGN_DOCUMENTATION_STANDARDS.md` | Shared current location; project copy removed | `EIRAM-STUDIO-0.1` |
 | CI-004 | Codex Instructions | `../AGENTS.md` | Shared current location; project copy removed | `EIRAM-STUDIO-0.1` |
 
 ### 3.2 Design and Planning Configuration Items
@@ -282,7 +282,7 @@ Changes to this baseline should be handled by updating:
 ```text
 03_EIRAM_Analysis_Studio/
   AGENTS.md
-  ACADEMIC_AND_DESIGN_STANDARDS.md
+  DESIGN_DOCUMENTATION_STANDARDS.md
   PROJECT_BRIEF.md
   README.md
   app/

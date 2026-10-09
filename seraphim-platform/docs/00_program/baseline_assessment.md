@@ -148,7 +148,7 @@ Client may also use `VITE_GOOGLE_MAPS_TILE_API_KEY` per white paper.
 
 ## 11. Existing Modules
 
-Chat (12 modes), Network Defense, Argus Terra, Argus Vigil (local), Code, Engineering, EiRAM, Memory, Plugins, Discover, News, Weather, Flights, Marine Traffic, Settings, Instagram Intel, SystemSentinel (29 checks catalog), Network Intel (CMIT 265), Audit, Command Deck, Landing, Local Agent page, InsightForge, Team Dashboard / NewsFlow (v10).
+Chat (12 modes), Network Defense, Argus Terra, Argus Vigil (local), Code, Engineering, EiRAM, Memory, Plugins, Discover, News, Weather, Flights, Marine Traffic, Settings, Instagram Intel, SystemSentinel (29 checks catalog), Network Intel (Networking foundations), Audit, Command Deck, Landing, Local Agent page, InsightForge, Team Dashboard / NewsFlow (v10).
 
 Companion folders: `SystemSentinel/` (Java + PowerShell scripts), `argus-vigil/` (Python), `desktop/` (C# launcher), `Geospatial Command/` (HTML prototypes).
 
