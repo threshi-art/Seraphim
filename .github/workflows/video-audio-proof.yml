@@ -1,0 +1,42 @@
+name: YouTube audio extraction proof
+on:
+  push:
+    branches:
+      - agent/youtube-four-provider-fallback-20261012
+    paths:
+      - '.github/workflows/video-audio-proof.yml'
+permissions:
+  contents: read
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install runtime
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install -U 'yt-dlp[default]'
+          python -m pip install -U yt-dlp-ejs
+          node --version
+          ffmpeg -version | head -1
+          yt-dlp --version
+      - name: Test video audio access without storing the media
+        shell: bash
+        run: |
+          set +e
+          yt-dlp -v --js-runtimes node --list-formats 'https://youtu.be/OENarJm8qco' > extraction.log 2>&1
+          code=$?
+          sed -E 's/(cookie|token|authorization|visitor_data)([=: ]+)[^ ]+/\1\2[redacted]/Ig' extraction.log | tail -80
+          echo "format_list_exit_code=$code"
+          if [ "$code" -ne 0 ]; then exit "$code"; fi
+          yt-dlp -v --js-runtimes node -f 'ba' --download-sections '*0:00-0:15' --force-keyframes-at-cuts -o 'probe.%(ext)s' 'https://youtu.be/OENarJm8qco' > audio.log 2>&1
+          code=$?
+          sed -E 's/(cookie|token|authorization|visitor_data)([=: ]+)[^ ]+/\1\2[redacted]/Ig' audio.log | tail -50
+          echo "audio_probe_exit_code=$code"
+          test "$code" -eq 0
+          ls -l probe.* | awk '{print $5, $9}'
