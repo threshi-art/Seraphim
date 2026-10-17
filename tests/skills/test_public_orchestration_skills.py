@@ -60,7 +60,8 @@ class OrchestrationCohortTests(unittest.TestCase):
                 self.assertTrue(item["public_package"])
                 self.assertEqual(relative_path, item["package_path"])
                 self.assertEqual("reconstructed-public-edition", item["provenance"])
-                self.assertEqual("1.0.0", item["version"])
+                expected_version = "1.1.0" if skill_id == "context-sentinel" else "1.0.0"
+                self.assertEqual(expected_version, item["version"])
                 self.assertEqual(
                     "tests/skills/test_public_orchestration_skills.py",
                     item["validation"],
