@@ -36,11 +36,11 @@
       "public_package": true,
       "package_path": "skills/orchestration/context-sentinel",
       "provenance": "reconstructed-public-edition",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "validation": "tests/skills/test_public_orchestration_skills.py",
       "runtime_contract": {
         "capability_id": "context-sentinel",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "architectural_type": "portable_skill",
         "available_runtime": "repository_only",
         "current_status": "packaged",
@@ -54,7 +54,7 @@
           "public_repository_content",
           "operator_provided_material"
         ],
-        "last_verified": "2026-08-11"
+        "last_verified": "2026-10-17"
       }
     },
     {

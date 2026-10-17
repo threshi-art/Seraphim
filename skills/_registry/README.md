@@ -27,3 +27,13 @@ and behavior tests pass.
 The separate `Development\GitHub\Seriphim` directory remains a complete Git
 checkout and is excluded from active discovery. It must be reconciled as a
 repository, not by deleting its skills subdirectory.
+
+## Context Sentinel digest
+
+The Context Sentinel row refreshed on 2026-10-17 uses a reproducible file
+manifest digest. Sort package files by their relative POSIX paths. For each
+file, append its path, a NUL byte, its lowercase SHA256 content digest, and a
+single LF. Hash the concatenated UTF-8 manifest with SHA256 and record the
+uppercase result in `tree_sha256`. Count all regular package files and their
+actual bytes. Other inventory rows retain their historical digest values;
+this update does not attest to their current contents or original hash method.
